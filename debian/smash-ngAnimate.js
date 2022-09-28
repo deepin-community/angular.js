@@ -1,0 +1,14 @@
+import "src/module.prefix";
+import "src/ngAnimate/shared.js";
+import "src/ngAnimate/rafScheduler.js";
+import "src/ngAnimate/animateChildrenDirective.js";
+import "src/ngAnimate/animateCss.js";
+import "src/ngAnimate/animateCssDriver.js";
+import "src/ngAnimate/animateJs.js";
+import "src/ngAnimate/animateJsDriver.js";
+import "src/ngAnimate/animateQueue.js";
+import "src/ngAnimate/animateCache.js";
+import "src/ngAnimate/animation.js";
+import "src/ngAnimate/ngAnimateSwap.js";
+import "src/ngAnimate/module.js";
+import "src/module.suffix";

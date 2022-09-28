@@ -1,0 +1,201 @@
+angular.js (1.8.2-2) unstable; urgency=medium
+
+  * Change build dependency to uglifyjs (closes: #979889).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 12 Jan 2021 18:12:31 +0100
+
+angular.js (1.8.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update watch file.
+  * Update copyright file.
+  * Update debhelper level to 13 .
+  * Update Standards-Version to 4.5.1 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 22 Dec 2020 23:17:24 +0100
+
+angular.js (1.8.0-1) unstable; urgency=high
+
+  * New upstream release:
+    - fixes CVE-2020-7676: prevent possible XSS due to regex-based HTML
+      replacement.
+  * Update Standards-Version to 4.5.0 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 18 Jun 2020 09:18:33 +0200
+
+angular.js (1.7.9-1) unstable; urgency=high
+
+  * New upstream release (closes: #859513):
+    - fixes CVE-2019-10768: function `merge()` could be tricked into adding
+      or modifying properties of `Object.prototype` (closes: #945249).
+  * Update watch file.
+  * Update debhelper level to 11 .
+  * Update Standards-Version to 4.4.1 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 01 Dec 2019 15:02:51 +0000
+
+angular.js (1.6.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Mon, 02 Jan 2017 21:59:36 +0000
+
+angular.js (1.5.10-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 22 Dec 2016 21:56:33 +0000
+
+angular.js (1.5.9-1) unstable; urgency=high
+
+  * New upstream release, with security fixes:
+    - bootstrap:
+      - do not auto-bootstrap when loaded from an extension
+      - explicitly whitelist URL schemes for bootstrap
+    - $location: throw if the path starts with double (back)slashes
+    - $sniffer: don't use history.pushState in sandboxed Chrome Packaged Apps
+    - $parse:
+      - block assigning to fields of a constructor prototype
+      - correctly escape unsafe identifier characters
+    - $compile:
+      - ensure that hidden input values are correct after history.back
+      - lower the $sce context for src on video, audio, source, track
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 08 Dec 2016 18:03:44 +0000
+
+angular.js (1.5.8-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 15 Nov 2016 16:16:03 +0000
+
+angular.js (1.5.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Re-enable minified files as uglify is fixed (closes: #823275).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Mon, 25 Apr 2016 16:04:25 +0000
+
+angular.js (1.5.3-2) unstable; urgency=low
+
+  * Upload to unstable.
+  * Update Standards-Version to 3.9.8 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Mon, 11 Apr 2016 15:52:34 +0000
+
+angular.js (1.5.3-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update smash files.
+  * Update source Lintian overrides.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 27 Mar 2016 07:47:25 +0000
+
+angular.js (1.3.20-3) unstable; urgency=low
+
+  * Update source Lintian overrides.
+  * Update Standards-Version to 3.9.7 .
+
+  [ Eduard Sanou <dhole@openmailbox.org> ]
+  * Fix misdetection as binary input in grep when LC_ALL=C (closes: #819325).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 27 Mar 2016 07:15:57 +0000
+
+angular.js (1.3.20-2) unstable; urgency=low
+
+  * Don't ship minified files until uglifyjs is updated (closes: #815865).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Mon, 14 Mar 2016 15:55:17 +0000
+
+angular.js (1.3.20-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 17 Jan 2016 10:03:05 +0100
+
+angular.js (1.3.17-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 21 Jul 2015 18:58:30 +0000
+
+angular.js (1.3.13-1) experimental; urgency=low
+
+  * New major upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 10 Feb 2015 18:32:00 +0000
+
+angular.js (1.2.28-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 26 Dec 2014 14:50:07 +0000
+
+angular.js (1.2.26-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update Standards-Version to 3.9.6 .
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 07 Oct 2014 18:34:09 +0000
+
+angular.js (1.2.24-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 13 Sep 2014 20:58:01 +0000
+
+angular.js (1.2.23-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 23 Aug 2014 17:01:13 +0000
+
+angular.js (1.2.16-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 04 Apr 2014 19:33:02 +0200
+
+angular.js (1.2.15-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update packaging for upstream changes.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 25 Mar 2014 20:30:02 +0100
+
+angular.js (1.2.14-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 09 Mar 2014 20:32:08 +0100
+
+angular.js (1.2.13-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Mon, 17 Feb 2014 08:37:14 +0000
+
+angular.js (1.2.12-1) unstable; urgency=low
+
+  * New upstream release.
+  * Rework upstream version and codename determination logic.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Mon, 10 Feb 2014 22:33:15 +0100
+
+angular.js (1.2.11-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Wed, 05 Feb 2014 18:52:55 +0100
+
+angular.js (1.2.10-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Mon, 27 Jan 2014 21:31:11 +0100
+
+angular.js (1.2.9-1) unstable; urgency=low
+
+  * Initial upload (closes: #730585).
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 17 Jan 2014 00:20:21 +0100
